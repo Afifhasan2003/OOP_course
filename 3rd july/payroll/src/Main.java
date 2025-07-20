@@ -7,7 +7,7 @@ public static void main(String []args){
 
     Employee[] employees = new Employee[20];
     employees[0] = new SalariedEmployee("afif","hasan","123",200);
-    employees[1] = new HourlyEmployee("Abu","Raihan","124",50,10);
+    employees[1] = new HourlyEmployee("Abu","Raihan","124",50,60);
     employees[2] = new CommissionEmployee("saikot", "islam", "125" , 1000, 8);
     employees[3] = new BasePlusCommissionEmployee("anamul","jewel","abe",1000,10,500);
 

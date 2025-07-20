@@ -8,7 +8,7 @@ public class CommissionEmployee extends Employee {
     double earnings(){
         //System.out.println("his earning is " +grossSales*commissionRate * 7 /365 + "per week");
 
-        return grossSales*commissionRate * 7 /365;
+        return grossSales*commissionRate /100;
     }
     @Override
     public String toString(){
