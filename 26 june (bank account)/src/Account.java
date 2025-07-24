@@ -40,7 +40,6 @@ abstract class Account{
     public void credit(float amount) {
         balance = balance + amount + balance*interestRate;
         installmentNumber++;
-
     }
     public void debit(float amount) {
         if (balance >= amount) {
@@ -76,7 +75,6 @@ abstract class Account{
             System.out.println("Insufficient balance");
         }
     }
-
     public String toString() {
         if (accType == 1)
             atype = "current";

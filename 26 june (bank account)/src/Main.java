@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner input = new Scanner(System.in);
-   static int i=3;
+    static int i=3;
 
     public static void main(String[] args) {
 
