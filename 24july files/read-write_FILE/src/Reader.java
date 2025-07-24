@@ -10,7 +10,8 @@ public class Reader {
             fw.write(ch);
             
         }
-        fw.write("\n"); 
+        fw.write("\n");
+        fw.write("finish");
         fr.close();
         fw.close();
     }

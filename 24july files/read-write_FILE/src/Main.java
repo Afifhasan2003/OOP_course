@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             File inputPath = new File("IO_files/input.txt");
+
             File outputPath = new File("IO_files/output.txt");
             
             streamed streamed = new streamed();
@@ -22,6 +23,7 @@ public class Main {
             System.out.println("Reader & writer read successfully!");
             
         } catch (IOException e) {
+            System.out.println("Could not read from file");
             System.err.println("Error: " + e.getMessage());
         }
     }

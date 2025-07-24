@@ -12,7 +12,9 @@ public class streamed {
         int a;
         while((a = fi.read()) != -1){
             fo.write(a);
+            
         }
+        fo.write("\n".getBytes());      // steam works byte by byte, 
         fi.close();
         fo.close();
     }
